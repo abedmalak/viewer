@@ -67,10 +67,9 @@ export default function Featured({product}) {
         <ColumnsWrapper>
           <Column>
             <div>
-              <Title>{product.title}</Title>
-              <Desc>{product.description}</Desc>
+              <Title></Title>
+              <Desc></Desc>
               <ButtonsWrapper>
-                <ButtonLink href={'/product/'+product._id} outline={1} white={1}>Read more</ButtonLink>
                 <Button white onClick={addFeaturedToCart}>
                   <CartIcon />
                   Add to cart
@@ -79,7 +78,7 @@ export default function Featured({product}) {
             </div>
           </Column>
           <Column>
-            <img src="https://abed-ecommerce.s3.amazonaws.com/1682598468679.png" alt=""/>
+            <img src="https://abed-ecommerce.s3.amazonaws.com/1683016724291.jpeg" alt=""/>
           </Column>
         </ColumnsWrapper>
       </Center>
