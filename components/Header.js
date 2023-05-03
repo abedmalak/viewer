@@ -73,7 +73,7 @@ export default function Header() {
           <StyledNav mobileNavActive={mobileNavActive}>
             <NavLink href={'/products'}>All products</NavLink>
             <NavLink href={'http://sultansteel.vercel.app'}>Trading Page</NavLink>
-            <NavLink href={'http://localhost:3000/'}>Account</NavLink>
+            <NavLink href={'http://sultansteeladmin.vercel.app'}>Account</NavLink>
           </StyledNav>
           <NavButton onClick={() => setMobileNavActive(prev => !prev)}>
             <BarsIcon />
